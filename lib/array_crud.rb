@@ -1,19 +1,19 @@
 def create_an_empty_array
-  heroes = []
+  array = []
 end
 
 def create_an_array
-  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
+  array = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
 end
 
 def add_element_to_end_of_array(array, element)
-  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
+  array = ["wow", "I", "am", "really", "learning"]
   element = ["arrays!"]
 end
 
 def add_element_to_start_of_array(array, element)
-  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
-  heroes.unshift("wow")
+  array = ["wow", "I", "am", "really", "learning"]
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
