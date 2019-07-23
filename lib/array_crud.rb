@@ -18,7 +18,7 @@ end
 
 def remove_element_from_end_of_array(array)
   heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
-  heroes.pop("arrays!")
+  heroes.pop("White Canary")
 end
 
 def remove_element_from_start_of_array(array)
