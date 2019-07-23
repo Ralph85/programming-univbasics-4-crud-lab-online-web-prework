@@ -7,9 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  heroes.push("The Atom")
-
-  p heroes
+  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
+  new_hero = ["The Atom"]
 end
 
 def add_element_to_start_of_array(array, element)
