@@ -35,7 +35,7 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  heroes[3]
+  heroes[-1]
 end
 
 def update_element_from_index(array, index_number, element)
