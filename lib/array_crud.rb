@@ -23,21 +23,21 @@ end
 
 def remove_element_from_start_of_array(array)
   array = ["wow", "I", "am", "really", "learning"]
-  arrayshift("wow")
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
+  array = ["wow", "I", "am", "really", "learning"]
 end
 
 def retrieve_first_element_from_array(array)
-  heroes[0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  heroes[-1]
+  array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
-  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
+  array = ["wow", "I", "am", "really", "learning"]
 end
