@@ -17,25 +17,27 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-
+  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
+  heroes.pop("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
-
+  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
+  heroes.shift("wow")
 end
 
 def retrieve_element_from_index(array, index_number)
-
+  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
 end
 
 def retrieve_first_element_from_array(array)
-
+  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
 end
 
 def retrieve_last_element_from_array(array)
-
+  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
 end
 
 def update_element_from_index(array, index_number, element)
-
+  heroes = ["Green Arrow", "Flash", "Supergirl", "White Canary"]
 end
